@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="api.js"></script>
+</head>
+<body>
+
+    
+<div id="main-container">
+    <div id="input-container" >
+        <h1>
+            <span >GITHUB</span> User Finder  From API.. 
+        </h1> 
+        <br>
+        <br>
+        <br>
+        <input autocomplete="off"  placeholder="Enter Github Username..." id="input" >
+        <button  onclick="apiData()">SEARCH </button>
+    </div>
+    <div id="output-container">
+
+      <div id="bio-container">
+          <div>
+              <img id="image" src="" alt="">
+          </div>
+          <h1  id="name"></h1>
+          <h2  id="username"></h2>
+          <h3 id="bio"></h3>
+      </div>
+  
+      <div id="repo-container">
+          <h1 id="follower" ></h1>
+          
+          <h1 id="repository"></h1>
+          
+          <h1 id="following"></h1>
+      </div>
+  
+      <div id="url-container">
+          <h3 id="location"></h3>
+          <h1 id="url"></h1>
+      </div>
+    </div>
+</div>
+</body>
+</html>
